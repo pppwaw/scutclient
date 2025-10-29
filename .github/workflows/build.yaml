@@ -14,8 +14,7 @@ jobs:
     strategy:
       matrix:
         arch:
-          - mips_24kc
-          - mips_mips32
+          - aarch64_generic
 
     steps:
       - uses: actions/checkout@v4
